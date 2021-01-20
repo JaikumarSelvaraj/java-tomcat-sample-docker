@@ -1,0 +1,331 @@
+[root@master ~]# kubectl logs kube-controller-manager-master.k8s.com  --namespace kube-system
+Flag --port has been deprecated, see --secure-port instead.
+I0119 17:17:29.627032       1 serving.go:331] Generated self-signed cert in-memory
+I0119 17:17:31.310576       1 controllermanager.go:176] Version: v1.20.2
+I0119 17:17:31.313975       1 secure_serving.go:197] Serving securely on 127.0.0.1:10257
+I0119 17:17:31.314090       1 leaderelection.go:243] attempting to acquire leader lease kube-system/kube-controller-manager...
+I0119 17:17:31.314379       1 tlsconfig.go:240] Starting DynamicServingCertificateController
+I0119 17:17:31.314491       1 dynamic_cafile_content.go:167] Starting request-header::/etc/kubernetes/pki/front-proxy-ca.crt
+I0119 17:17:31.314566       1 dynamic_cafile_content.go:167] Starting client-ca-bundle::/etc/kubernetes/pki/ca.crt
+E0119 17:17:31.315081       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:17:34.940509       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:17:37.894394       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:17:40.859055       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:17:44.562684       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:17:47.727007       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:17:51.535267       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:17:54.992572       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:17:59.028754       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:18:01.660240       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:18:04.826042       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:18:07.337687       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:18:10.563212       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:18:12.751968       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:18:16.119239       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:18:19.842745       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:18:23.949548       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:18:27.822536       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:18:30.426513       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:18:34.656209       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:18:38.234264       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:18:40.266792       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:18:42.890880       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:18:45.051226       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:18:48.652315       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:18:52.840637       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:18:57.139161       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:18:59.959366       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:19:03.864775       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:19:07.805905       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:19:11.251676       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:19:13.822499       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:19:16.959245       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:19:20.071492       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:19:23.001040       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:19:26.351872       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:19:28.754913       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:19:30.917967       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:19:35.172270       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:19:39.172962       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:19:43.109437       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:19:46.546879       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:19:48.868760       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:19:52.688937       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:19:56.461148       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:19:59.985573       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:20:03.326586       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:20:05.638548       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:20:08.968939       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:20:12.858780       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:20:15.988070       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:20:19.225719       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:20:21.747959       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:20:24.669850       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:20:26.847027       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:20:29.859721       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:20:33.773437       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:20:36.118154       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:20:39.318799       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:20:42.418641       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:20:45.384401       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:20:47.667740       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:20:51.014067       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:20:53.320775       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:20:57.687826       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:21:01.377485       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:21:05.710997       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:21:08.010878       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:21:11.875025       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:21:14.333467       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:21:16.535097       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:21:19.576272       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:21:23.478148       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:21:25.725064       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:21:29.908529       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:21:32.859264       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:21:35.945317       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:21:38.452578       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:21:41.290057       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:21:43.442355       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:21:46.867248       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:21:50.174096       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:21:53.950608       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:21:58.278578       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:22:00.480978       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:22:03.734879       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:22:06.644646       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:22:10.166389       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:22:13.215169       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:22:15.692483       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:22:18.480469       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:22:21.591989       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:22:24.889901       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:22:28.213640       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0119 17:22:30.768480       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0120 04:59:00.646977       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0120 04:59:04.994445       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0120 04:59:09.170854       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0120 04:59:11.669302       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0120 04:59:14.799598       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0120 04:59:19.133541       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0120 04:59:21.762911       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0120 04:59:24.609888       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0120 04:59:26.897058       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0120 04:59:30.261750       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0120 04:59:34.458523       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0120 04:59:38.686971       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0120 04:59:42.050847       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0120 04:59:46.111475       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0120 04:59:48.683906       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0120 04:59:51.481544       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0120 04:59:53.886738       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0120 04:59:57.501977       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0120 05:00:00.636714       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+E0120 05:00:04.801526       1 leaderelection.go:325] error retrieving resource lock kube-system/kube-controller-manager: Get "https://192.168.18.15:6443/apis/coordination.k8s.io/v1/namespaces/kube-system/leases/kube-controller-manager?timeout=10s": dial tcp 192.168.18.15:6443: connect: network is unreachable
+I0120 05:00:24.181197       1 leaderelection.go:253] successfully acquired lease kube-system/kube-controller-manager
+I0120 05:00:24.181325       1 event.go:291] "Event occurred" object="kube-system/kube-controller-manager" kind="Lease" apiVersion="coordination.k8s.io/v1" type="Normal" reason="LeaderElection" message="master.k8s.com_0d1306ab-cfa2-45f1-be4d-bd97c11fc604 became leader"
+I0120 05:00:24.640204       1 shared_informer.go:240] Waiting for caches to sync for tokens
+E0120 05:00:24.644214       1 core.go:92] Failed to start service controller: WARNING: no cloud provider provided, services of type LoadBalancer will fail
+W0120 05:00:24.644238       1 controllermanager.go:546] Skipping "service"
+I0120 05:00:24.649675       1 controllermanager.go:554] Started "persistentvolume-binder"
+I0120 05:00:24.649936       1 pv_controller_base.go:307] Starting persistent volume controller
+I0120 05:00:24.649956       1 shared_informer.go:240] Waiting for caches to sync for persistent volume
+I0120 05:00:24.651791       1 controllermanager.go:554] Started "clusterrole-aggregation"
+I0120 05:00:24.651865       1 clusterroleaggregation_controller.go:149] Starting ClusterRoleAggregator
+I0120 05:00:24.651873       1 shared_informer.go:240] Waiting for caches to sync for ClusterRoleAggregator
+I0120 05:00:24.656105       1 controllermanager.go:554] Started "disruption"
+I0120 05:00:24.656135       1 disruption.go:331] Starting disruption controller
+I0120 05:00:24.656148       1 shared_informer.go:240] Waiting for caches to sync for disruption
+I0120 05:00:24.658260       1 node_ipam_controller.go:91] Sending events to api server.
+I0120 05:00:24.740964       1 shared_informer.go:247] Caches are synced for tokens
+I0120 05:00:34.684845       1 range_allocator.go:82] Sending events to api server.
+I0120 05:00:34.685005       1 range_allocator.go:116] No Secondary Service CIDR provided. Skipping filtering out secondary service addresses.
+I0120 05:00:34.685042       1 controllermanager.go:554] Started "nodeipam"
+I0120 05:00:34.685065       1 node_ipam_controller.go:159] Starting ipam controller
+I0120 05:00:34.685071       1 shared_informer.go:240] Waiting for caches to sync for node
+I0120 05:00:34.687493       1 controllermanager.go:554] Started "attachdetach"
+I0120 05:00:34.687674       1 attach_detach_controller.go:328] Starting attach detach controller
+I0120 05:00:34.687682       1 shared_informer.go:240] Waiting for caches to sync for attach detach
+I0120 05:00:34.689883       1 controllermanager.go:554] Started "persistentvolume-expander"
+I0120 05:00:34.689927       1 expand_controller.go:310] Starting expand controller
+I0120 05:00:34.689943       1 shared_informer.go:240] Waiting for caches to sync for expand
+I0120 05:00:34.705749       1 controllermanager.go:554] Started "namespace"
+I0120 05:00:34.705774       1 namespace_controller.go:200] Starting namespace controller
+I0120 05:00:34.705781       1 shared_informer.go:240] Waiting for caches to sync for namespace
+I0120 05:00:34.707807       1 controllermanager.go:554] Started "csrcleaner"
+W0120 05:00:34.707829       1 controllermanager.go:546] Skipping "ttl-after-finished"
+I0120 05:00:34.707880       1 cleaner.go:82] Starting CSR cleaner controller
+I0120 05:00:34.710321       1 certificate_controller.go:118] Starting certificate controller "csrsigning-kubelet-serving"
+I0120 05:00:34.710345       1 shared_informer.go:240] Waiting for caches to sync for certificate-csrsigning-kubelet-serving
+I0120 05:00:34.710360       1 dynamic_serving_content.go:130] Starting csr-controller::/etc/kubernetes/pki/ca.crt::/etc/kubernetes/pki/ca.key
+I0120 05:00:34.710598       1 certificate_controller.go:118] Starting certificate controller "csrsigning-kubelet-client"
+I0120 05:00:34.710610       1 shared_informer.go:240] Waiting for caches to sync for certificate-csrsigning-kubelet-client
+I0120 05:00:34.710630       1 dynamic_serving_content.go:130] Starting csr-controller::/etc/kubernetes/pki/ca.crt::/etc/kubernetes/pki/ca.key
+I0120 05:00:34.710784       1 certificate_controller.go:118] Starting certificate controller "csrsigning-kube-apiserver-client"
+I0120 05:00:34.710795       1 shared_informer.go:240] Waiting for caches to sync for certificate-csrsigning-kube-apiserver-client
+I0120 05:00:34.710800       1 certificate_controller.go:118] Starting certificate controller "csrsigning-legacy-unknown"
+I0120 05:00:34.710805       1 dynamic_serving_content.go:130] Starting csr-controller::/etc/kubernetes/pki/ca.crt::/etc/kubernetes/pki/ca.key
+I0120 05:00:34.710809       1 shared_informer.go:240] Waiting for caches to sync for certificate-csrsigning-legacy-unknown
+I0120 05:00:34.710787       1 controllermanager.go:554] Started "csrsigning"
+I0120 05:00:34.710823       1 dynamic_serving_content.go:130] Starting csr-controller::/etc/kubernetes/pki/ca.crt::/etc/kubernetes/pki/ca.key
+I0120 05:00:34.713269       1 controllermanager.go:554] Started "deployment"
+I0120 05:00:34.713297       1 deployment_controller.go:153] Starting deployment controller
+I0120 05:00:34.713304       1 shared_informer.go:240] Waiting for caches to sync for deployment
+I0120 05:00:34.715456       1 controllermanager.go:554] Started "tokencleaner"
+I0120 05:00:34.715589       1 tokencleaner.go:118] Starting token cleaner controller
+I0120 05:00:34.715596       1 shared_informer.go:240] Waiting for caches to sync for token_cleaner
+I0120 05:00:34.715600       1 shared_informer.go:247] Caches are synced for token_cleaner
+I0120 05:00:34.717392       1 node_lifecycle_controller.go:77] Sending events to api server
+E0120 05:00:34.717430       1 core.go:232] failed to start cloud node lifecycle controller: no cloud provider provided
+W0120 05:00:34.717437       1 controllermanager.go:546] Skipping "cloud-node-lifecycle"
+W0120 05:00:34.717445       1 controllermanager.go:546] Skipping "ephemeral-volume"
+I0120 05:00:34.719570       1 controllermanager.go:554] Started "serviceaccount"
+I0120 05:00:34.719591       1 serviceaccounts_controller.go:117] Starting service account controller
+I0120 05:00:34.719600       1 shared_informer.go:240] Waiting for caches to sync for service account
+I0120 05:00:34.721650       1 controllermanager.go:554] Started "replicationcontroller"
+I0120 05:00:34.721798       1 replica_set.go:182] Starting replicationcontroller controller
+I0120 05:00:34.721803       1 shared_informer.go:240] Waiting for caches to sync for ReplicationController
+I0120 05:00:35.175873       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for horizontalpodautoscalers.autoscaling
+W0120 05:00:35.175913       1 shared_informer.go:494] resyncPeriod 18h50m46.866041351s is smaller than resyncCheckPeriod 22h52m35.594733368s and the informer has already started. Changing it to 22h52m35.594733368s
+I0120 05:00:35.175953       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for serviceaccounts
+I0120 05:00:35.175970       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for statefulsets.apps
+I0120 05:00:35.175983       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for networkpolicies.networking.k8s.io
+I0120 05:00:35.175997       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for limitranges
+I0120 05:00:35.176006       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for poddisruptionbudgets.policy
+I0120 05:00:35.177233       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for ingresses.extensions
+I0120 05:00:35.177273       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for rolebindings.rbac.authorization.k8s.io
+I0120 05:00:35.177288       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for podtemplates
+I0120 05:00:35.177305       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for deployments.apps
+I0120 05:00:35.177318       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for daemonsets.apps
+I0120 05:00:35.177376       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for ingresses.networking.k8s.io
+I0120 05:00:35.177389       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for jobs.batch
+I0120 05:00:35.177484       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for endpoints
+I0120 05:00:35.177498       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for replicasets.apps
+I0120 05:00:35.177509       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for events.events.k8s.io
+I0120 05:00:35.177517       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for controllerrevisions.apps
+I0120 05:00:35.177531       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for cronjobs.batch
+I0120 05:00:35.177543       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for roles.rbac.authorization.k8s.io
+I0120 05:00:35.177571       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for leases.coordination.k8s.io
+I0120 05:00:35.177583       1 resource_quota_monitor.go:229] QuotaMonitor created object count evaluator for endpointslices.discovery.k8s.io
+I0120 05:00:35.177610       1 controllermanager.go:554] Started "resourcequota"
+I0120 05:00:35.177653       1 resource_quota_controller.go:273] Starting resource quota controller
+I0120 05:00:35.177683       1 shared_informer.go:240] Waiting for caches to sync for resource quota
+I0120 05:00:35.177700       1 resource_quota_monitor.go:304] QuotaMonitor running
+I0120 05:00:35.179986       1 controllermanager.go:554] Started "job"
+I0120 05:00:35.180137       1 job_controller.go:148] Starting job controller
+I0120 05:00:35.180146       1 shared_informer.go:240] Waiting for caches to sync for job
+I0120 05:00:35.187957       1 controllermanager.go:554] Started "horizontalpodautoscaling"
+I0120 05:00:35.187974       1 horizontal.go:169] Starting HPA controller
+I0120 05:00:35.187982       1 shared_informer.go:240] Waiting for caches to sync for HPA
+I0120 05:00:35.190115       1 controllermanager.go:554] Started "csrapproving"
+I0120 05:00:35.190140       1 certificate_controller.go:118] Starting certificate controller "csrapproving"
+I0120 05:00:35.190148       1 shared_informer.go:240] Waiting for caches to sync for certificate-csrapproving
+I0120 05:00:35.192564       1 controllermanager.go:554] Started "root-ca-cert-publisher"
+I0120 05:00:35.192752       1 publisher.go:98] Starting root CA certificate configmap publisher
+I0120 05:00:35.192769       1 shared_informer.go:240] Waiting for caches to sync for crt configmap
+I0120 05:00:35.195053       1 controllermanager.go:554] Started "endpointslicemirroring"
+I0120 05:00:35.195129       1 endpointslicemirroring_controller.go:211] Starting EndpointSliceMirroring controller
+I0120 05:00:35.195505       1 shared_informer.go:240] Waiting for caches to sync for endpoint_slice_mirroring
+I0120 05:00:35.200431       1 controllermanager.go:554] Started "podgc"
+I0120 05:00:35.200605       1 gc_controller.go:89] Starting GC controller
+I0120 05:00:35.200611       1 shared_informer.go:240] Waiting for caches to sync for GC
+I0120 05:00:35.202568       1 controllermanager.go:554] Started "replicaset"
+I0120 05:00:35.202794       1 replica_set.go:182] Starting replicaset controller
+I0120 05:00:35.202820       1 shared_informer.go:240] Waiting for caches to sync for ReplicaSet
+I0120 05:00:35.204769       1 controllermanager.go:554] Started "statefulset"
+I0120 05:00:35.204921       1 stateful_set.go:146] Starting stateful set controller
+I0120 05:00:35.204939       1 shared_informer.go:240] Waiting for caches to sync for stateful set
+I0120 05:00:35.207146       1 node_lifecycle_controller.go:380] Sending events to api server.
+I0120 05:00:35.207314       1 taint_manager.go:163] Sending events to api server.
+I0120 05:00:35.207359       1 node_lifecycle_controller.go:508] Controller will reconcile labels.
+I0120 05:00:35.207385       1 controllermanager.go:554] Started "nodelifecycle"
+I0120 05:00:35.207598       1 node_lifecycle_controller.go:542] Starting node controller
+I0120 05:00:35.207615       1 shared_informer.go:240] Waiting for caches to sync for taint
+I0120 05:00:35.210061       1 controllermanager.go:554] Started "endpointslice"
+I0120 05:00:35.210097       1 endpointslice_controller.go:237] Starting endpoint slice controller
+I0120 05:00:35.210104       1 shared_informer.go:240] Waiting for caches to sync for endpoint_slice
+I0120 05:00:35.212095       1 controllermanager.go:554] Started "cronjob"
+I0120 05:00:35.212205       1 cronjob_controller.go:96] Starting CronJob Manager
+I0120 05:00:35.214498       1 controllermanager.go:554] Started "ttl"
+I0120 05:00:35.214517       1 ttl_controller.go:121] Starting TTL controller
+I0120 05:00:35.214529       1 shared_informer.go:240] Waiting for caches to sync for TTL
+I0120 05:00:35.220188       1 controllermanager.go:554] Started "bootstrapsigner"
+W0120 05:00:35.220217       1 core.go:246] configure-cloud-routes is set, but no cloud provider specified. Will not configure cloud provider routes.
+W0120 05:00:35.220222       1 controllermanager.go:546] Skipping "route"
+I0120 05:00:35.220340       1 shared_informer.go:240] Waiting for caches to sync for bootstrap_signer
+I0120 05:00:35.225423       1 garbagecollector.go:142] Starting garbage collector controller
+I0120 05:00:35.225441       1 shared_informer.go:240] Waiting for caches to sync for garbage collector
+I0120 05:00:35.225443       1 controllermanager.go:554] Started "garbagecollector"
+I0120 05:00:35.225458       1 graph_builder.go:289] GraphBuilder running
+I0120 05:00:35.227598       1 controllermanager.go:554] Started "daemonset"
+I0120 05:00:35.227688       1 daemon_controller.go:285] Starting daemon sets controller
+I0120 05:00:35.227696       1 shared_informer.go:240] Waiting for caches to sync for daemon sets
+I0120 05:00:35.230888       1 controllermanager.go:554] Started "pvc-protection"
+I0120 05:00:35.230938       1 pvc_protection_controller.go:110] Starting PVC protection controller
+I0120 05:00:35.230943       1 shared_informer.go:240] Waiting for caches to sync for PVC protection
+I0120 05:00:35.262623       1 controllermanager.go:554] Started "pv-protection"
+I0120 05:00:35.262649       1 pv_protection_controller.go:83] Starting PV protection controller
+I0120 05:00:35.262663       1 shared_informer.go:240] Waiting for caches to sync for PV protection
+I0120 05:00:35.313113       1 controllermanager.go:554] Started "endpoint"
+I0120 05:00:35.313315       1 endpoints_controller.go:184] Starting endpoint controller
+I0120 05:00:35.313324       1 shared_informer.go:240] Waiting for caches to sync for endpoint
+E0120 05:00:35.324602       1 controller_utils.go:248] Error while processing Node Add: failed to allocate cidr from cluster cidr at idx:0: CIDR allocation failed; there are no remaining CIDRs left to allocate in the accepted range
+W0120 05:00:35.324947       1 actual_state_of_world.go:506] Failed to update statusUpdateNeeded field in actual state of world: Failed to set statusUpdateNeeded to needed true, because nodeName="node-1.k8s.com" does not exist
+I0120 05:00:35.325195       1 event.go:291] "Event occurred" object="node-1.k8s.com" kind="Node" apiVersion="v1" type="Normal" reason="CIDRNotAvailable" message="Node node-1.k8s.com status is now: CIDRNotAvailable"
+W0120 05:00:35.325301       1 actual_state_of_world.go:506] Failed to update statusUpdateNeeded field in actual state of world: Failed to set statusUpdateNeeded to needed true, because nodeName="master.k8s.com" does not exist
+I0120 05:00:35.328167       1 shared_informer.go:247] Caches are synced for daemon sets
+I0120 05:00:35.331304       1 shared_informer.go:247] Caches are synced for PVC protection
+I0120 05:00:35.350415       1 shared_informer.go:247] Caches are synced for persistent volume
+I0120 05:00:35.352068       1 shared_informer.go:247] Caches are synced for ClusterRoleAggregator
+I0120 05:00:35.360082       1 shared_informer.go:247] Caches are synced for disruption
+I0120 05:00:35.360132       1 disruption.go:339] Sending events to api server.
+I0120 05:00:35.362872       1 shared_informer.go:247] Caches are synced for PV protection
+I0120 05:00:35.385433       1 shared_informer.go:247] Caches are synced for node
+I0120 05:00:35.385489       1 range_allocator.go:172] Starting range CIDR allocator
+I0120 05:00:35.385498       1 shared_informer.go:240] Waiting for caches to sync for cidrallocator
+I0120 05:00:35.385506       1 shared_informer.go:247] Caches are synced for cidrallocator
+I0120 05:00:35.388337       1 shared_informer.go:247] Caches are synced for attach detach
+I0120 05:00:35.388377       1 shared_informer.go:247] Caches are synced for HPA
+I0120 05:00:35.392126       1 shared_informer.go:247] Caches are synced for expand
+I0120 05:00:35.392217       1 shared_informer.go:247] Caches are synced for certificate-csrapproving
+I0120 05:00:35.400967       1 shared_informer.go:247] Caches are synced for GC
+I0120 05:00:35.403100       1 shared_informer.go:247] Caches are synced for ReplicaSet
+I0120 05:00:35.405072       1 shared_informer.go:247] Caches are synced for stateful set
+I0120 05:00:35.405931       1 shared_informer.go:247] Caches are synced for namespace
+I0120 05:00:35.407853       1 shared_informer.go:247] Caches are synced for taint
+I0120 05:00:35.407904       1 taint_manager.go:187] Starting NoExecuteTaintManager
+I0120 05:00:35.407920       1 node_lifecycle_controller.go:1429] Initializing eviction metric for zone:
+I0120 05:00:35.408062       1 event.go:291] "Event occurred" object="master.k8s.com" kind="Node" apiVersion="v1" type="Normal" reason="RegisteredNode" message="Node master.k8s.com event: Registered Node master.k8s.com in Controller"
+I0120 05:00:35.408074       1 event.go:291] "Event occurred" object="node-1.k8s.com" kind="Node" apiVersion="v1" type="Normal" reason="RegisteredNode" message="Node node-1.k8s.com event: Registered Node node-1.k8s.com in Controller"
+I0120 05:00:35.410377       1 shared_informer.go:247] Caches are synced for certificate-csrsigning-kubelet-serving
+I0120 05:00:35.410954       1 shared_informer.go:247] Caches are synced for certificate-csrsigning-legacy-unknown
+I0120 05:00:35.410975       1 shared_informer.go:247] Caches are synced for certificate-csrsigning-kube-apiserver-client
+I0120 05:00:35.410981       1 shared_informer.go:247] Caches are synced for certificate-csrsigning-kubelet-client
+I0120 05:00:35.413917       1 shared_informer.go:247] Caches are synced for deployment
+I0120 05:00:35.414609       1 shared_informer.go:247] Caches are synced for TTL
+W0120 05:00:35.419265       1 node_lifecycle_controller.go:1044] Missing timestamp for Node master.k8s.com. Assuming now as a timestamp.
+W0120 05:00:35.419315       1 node_lifecycle_controller.go:1044] Missing timestamp for Node node-1.k8s.com. Assuming now as a timestamp.
+I0120 05:00:35.419341       1 node_lifecycle_controller.go:1245] Controller detected that zone  is now in state Normal.
+I0120 05:00:35.420060       1 shared_informer.go:247] Caches are synced for service account
+I0120 05:00:35.420490       1 shared_informer.go:247] Caches are synced for bootstrap_signer
+E0120 05:00:35.421400       1 controller_utils.go:260] Error while processing Node Add/Delete: failed to allocate cidr from cluster cidr at idx:0: CIDR allocation failed; there are no remaining CIDRs left to allocate in the accepted range
+I0120 05:00:35.421960       1 shared_informer.go:247] Caches are synced for ReplicationController
+I0120 05:00:35.422149       1 event.go:291] "Event occurred" object="node-1.k8s.com" kind="Node" apiVersion="v1" type="Normal" reason="CIDRNotAvailable" message="Node node-1.k8s.com status is now: CIDRNotAvailable"
+I0120 05:00:35.422195       1 event.go:291] "Event occurred" object="default/static-web" kind="Pod" apiVersion="" type="Normal" reason="TaintManagerEviction" message="Cancelling deletion of Pod default/static-web"
+E0120 05:00:35.430236       1 controller_utils.go:260] Error while processing Node Add/Delete: failed to allocate cidr from cluster cidr at idx:0: CIDR allocation failed; there are no remaining CIDRs left to allocate in the accepted range
+I0120 05:00:35.430296       1 event.go:291] "Event occurred" object="node-1.k8s.com" kind="Node" apiVersion="v1" type="Normal" reason="CIDRNotAvailable" message="Node node-1.k8s.com status is now: CIDRNotAvailable"
+I0120 05:00:35.493834       1 shared_informer.go:247] Caches are synced for crt configmap
+I0120 05:00:35.577870       1 shared_informer.go:247] Caches are synced for resource quota
+I0120 05:00:35.580232       1 shared_informer.go:247] Caches are synced for job
+I0120 05:00:35.596381       1 shared_informer.go:247] Caches are synced for endpoint_slice_mirroring
+I0120 05:00:35.611136       1 shared_informer.go:247] Caches are synced for endpoint_slice
+I0120 05:00:35.614008       1 shared_informer.go:247] Caches are synced for endpoint
+I0120 05:00:36.129444       1 shared_informer.go:240] Waiting for caches to sync for garbage collector
+I0120 05:00:36.226319       1 shared_informer.go:247] Caches are synced for garbage collector
+I0120 05:00:36.226343       1 garbagecollector.go:151] Garbage collector: all resource monitors have synced. Proceeding to collect garbage
+I0120 05:00:36.230241       1 shared_informer.go:247] Caches are synced for garbage collector
+I0120 05:00:36.324331       1 request.go:655] Throttling request took 1.04887972s, request: GET:https://192.168.18.15:6443/apis/certificates.k8s.io/v1?timeout=32s
+I0120 05:00:37.127203       1 shared_informer.go:240] Waiting for caches to sync for resource quota
+I0120 05:00:37.127233       1 shared_informer.go:247] Caches are synced for resource quota
+I0120 05:05:35.434657       1 taint_manager.go:106] NoExecuteTaintManager is deleting Pod: default/static-web
+I0120 05:05:35.434889       1 event.go:291] "Event occurred" object="default/static-web" kind="Pod" apiVersion="" type="Normal" reason="TaintManagerEviction" message="Marking for deletion Pod default/static-web"
