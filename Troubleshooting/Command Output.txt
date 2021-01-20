@@ -1,0 +1,13 @@
+Thanks for the update,
+
+For Better Log Analysics, I uploaded log output into githup.Kindly check it.
+
+https://github.com/JaikumarSelvaraj/java-tomcat-sample-docker/tree/master/Troubleshooting
+
+Kubernetes Command Output
+366  kubectl get nodes -o wide
+369  kubectl get cs
+371  kubectl get all -A -o wide
+
+
+
